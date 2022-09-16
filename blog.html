@@ -32,18 +32,21 @@
             <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed text-light bg-dark" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    What's the difference between block scope and global scope?
+                    What's the difference between global scope and block scope?
                 </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse text-light bg-dark" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    <strong>Global scope:</strong> A variable exists inside or outside a block. If a variable is
+                    declared outside all functions or curly braces ({}), it exists in the global scope. The global
+                    variables can be accessed by any line of code in the program, including inside blocks.
+                    <br><br>
+                    <strong>Block scope:</strong> Block scope is that the block statements, don't create a new scope. So
+                    the var keyword will not have an effect, because the variables
+                    are still in the same scope.
+
+
                 </div>
             </div>
         </div>
